@@ -1,0 +1,75 @@
+/* Brower initialisation */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default settings */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Typography */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header layout */
+.site__header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 5px 10px 5px;
+  /* border: 1px solid red; */
+}
+
+.header__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  /* border: 1px solid firebrick; */
+}
+
+.header__logo {
+  height: 40px;
+  border-radius: 25px;
+  margin: 10px 5px 10px 20px;
+}
+
+.header__text {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 20px;
+  /* border: 1px solid blue; */
+}
+
+.header__text::first-line {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style-type: none;
+  /* border: 1px solid green; */
+}
+
+.header__nav li {
+  margin: 10px 20px 10px 10px;
+  /* border: 1px solid red; */
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.header__nav a:hover {
+  color: blueviolet;
+}
